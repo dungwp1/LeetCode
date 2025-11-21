@@ -12,12 +12,12 @@ public class Main {
 //        int result3 = Day1_LeetCode121.maxProfit(prices3);
 //        System.out.println(result3);
 
-        int[] num2 = {1, 2, 3, 4};
-        int[] num3 = {-1, 1, 0, -3, 3};
+        int[] num2 = {1, 1, 1};
+        int[] num3 = {1, 2, 3};
 
-        int[] result2 = Day4_LeetCode238.productExceptSelf(num2);
-        int[] result3 = Day4_LeetCode238.productExceptSelf(num3);
-        System.out.println(Arrays.toString(result2));
-        System.out.println(Arrays.toString(result3));
+        int result2 = Day5_LeetCode560.subarraySum(num2, 2);
+        int result3 = Day5_LeetCode560.subarraySum(num3, 3);
+        System.out.println(result2);
+        System.out.println(result3);
     }
 }
