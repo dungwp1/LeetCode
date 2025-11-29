@@ -12,12 +12,12 @@ public class Main {
 //        int result3 = Day1_LeetCode121.maxProfit(prices3);
 //        System.out.println(result3);
 
-        int[] num1 = {2, 5, 6, 0, 0, 1, 2};
-        int[] num2 = {2, 5, 6, 0, 0, 1, 2};
+        int[] num1 = {2, 3, 4, 7, 11};
+        int[] num2 = {1, 2, 3, 4};
 
-        boolean result1 = Day8_LeetCode81.search(num1, 0);
+        int result1 = Day9_LeetCode1539.findKthPositive(num1, 5);
         System.out.println(result1);
-        boolean result2 = Day8_LeetCode81.search(num1, 3);
+        int result2 = Day9_LeetCode1539.findKthPositive(num2, 2);
         System.out.println(result2);
     }
 }
