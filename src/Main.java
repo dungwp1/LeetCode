@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println(D12_202.isHappy(19));
-        System.out.println(D12_202.isHappy(2));
-        System.out.println(D12_202.isHappy(7));
-        System.out.println(D12_202.isHappy(10));
-        System.out.println(D12_202.isHappy(13));
+        int[] nums1 = {3, 2, 3};
+        int[] nums2 = {2, 2, 1, 1, 1, 2, 2};
+        System.out.println(D13_169.majorityElement(nums1));
+        System.out.println(D13_169.majorityElement(nums2));
     }
 }
