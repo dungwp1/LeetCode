@@ -1,19 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int[] nums1 = {0, 1, 0, 3, 12};
-        int[] nums2 = {1, 0, 1};
-        int[] nums3 = {4, 2, 4, 0, 0, 3, 0, 5, 1, 0};
+        int[] nums1 = {3, 2, 1};
+        int[] nums2 = {1, 2};
+        int[] nums3 = {2, 2, 3, 1};
+        int[] nums4 = {1, 2, -2147483648};
 
 
-        D14_283.moveZeroes(nums3);
-        for (int i : nums3) System.out.println(i);
-        System.out.println("--------------");
-
-        D14_283.moveZeroes(nums2);
-        for (int i : nums2) System.out.println(i);
-        System.out.println("--------------");
-
-        D14_283.moveZeroes(nums1);
-        for (int i : nums1) System.out.println(i);
+        System.out.println("--------------" + D15_414.thirdMax(nums1));
+        System.out.println("--------------" + D15_414.thirdMax(nums2));
+        System.out.println("--------------" + D15_414.thirdMax(nums3));
+        System.out.println("--------------" + D15_414.thirdMax(nums4));
     }
 }
