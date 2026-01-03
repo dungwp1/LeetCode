@@ -1,4 +1,4 @@
-public class Day8_LeetCode81 {
+public class D8_81 {
     public static boolean search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         while (left <= right) {

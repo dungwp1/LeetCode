@@ -1,4 +1,4 @@
-public class Day10_LeetCode209 {
+public class D10_209 {
 
     public static int minSubArrayLen(int target, int[] nums) {
         int left = 0, right = 0, sum = 0;

@@ -21,7 +21,7 @@ import java.util.Set;
  * -10^9 <= nums[i] <= 10^9
  */
 
-public class Day2_LeetCode217 {
+public class D2_217 {
     public static boolean containsDuplicate(int[] nums) {
         Set<Integer> arrNum = new HashSet<>();
         for (int i : nums) {

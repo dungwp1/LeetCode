@@ -1,4 +1,4 @@
-public class Day7_LeetCode33 {
+public class D7_33 {
     public static int search(int[] nums, int target) {
         int n = nums.length, left = 0, right = n - 1;
         while (left <= right) {

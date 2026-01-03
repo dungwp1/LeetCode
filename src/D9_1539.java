@@ -1,4 +1,4 @@
-public class Day9_LeetCode1539 {
+public class D9_1539 {
     public static int findKthPositive(int[] arr, int k) {
         int max = arr[arr.length - 1];
         int nLoop = Math.max(max, arr.length + k);

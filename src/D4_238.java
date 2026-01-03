@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Day4_LeetCode238 {
+public class D4_238 {
     public static int[] productExceptSelf(int[] nums) {
         int[] answer = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {

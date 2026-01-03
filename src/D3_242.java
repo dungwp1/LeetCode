@@ -1,7 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Day3_LeetCode242 {
+public class D3_242 {
     public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;
@@ -10,7 +9,7 @@ public class Day3_LeetCode242 {
             char[] StringT = t.toCharArray();
             Arrays.sort(StringS);
             Arrays.sort(StringT);
-            if (Arrays.equals(StringS,StringT)) {
+            if (Arrays.equals(StringS, StringT)) {
                 return true;
             } else {
                 return false;

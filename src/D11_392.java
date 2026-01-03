@@ -1,4 +1,4 @@
-public class Day11_LeetCode392 {
+public class D11_392 {
     public static boolean isSubsequence(String s, String t) {
         int count = 0;
         int tempJ = 0;

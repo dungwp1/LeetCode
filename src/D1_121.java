@@ -8,7 +8,7 @@
  * - Nếu lãi < maxProfit => Nothing, tiếp tục vòng lặp
  **/
 
-public class Day1_LeetCode121 {
+public class D1_121 {
     public static int maxProfit(int[] prices) {
         int maxProfit = 0;
         int minPrice = Integer.MAX_VALUE;

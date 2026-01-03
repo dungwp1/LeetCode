@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-public class Day5_LeetCode560 {
+public class D5_560 {
     public static int subarraySum(int[] nums, int k) {
         int count = 0;
         int n = nums.length;

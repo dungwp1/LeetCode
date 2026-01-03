@@ -1,4 +1,4 @@
-public class Day6_LeetCode153 {
+public class D6_153 {
     public static int findMin(int[] nums) {
         int left = 0, right = nums.length - 1;
 
