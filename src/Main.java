@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("---" + D17_58.lengthOfLastWord("A man, a plan, a canal: Panama"));
-        System.out.println("---" + D17_58.lengthOfLastWord("Hello World"));
-        System.out.println("---" + D17_58.lengthOfLastWord("   fly me   to   the moon  "));
-        System.out.println("---" + D17_58.lengthOfLastWord("luffy is still joyboy"));
+        System.out.println(D19_345.reverseVowels("IceCreAm"));
+        System.out.println(D19_345.reverseVowels("leetcode"));
     }
 }
