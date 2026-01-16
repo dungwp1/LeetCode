@@ -1,14 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int[] nums1 = {4, 1, 2};
-        int[] nums2 = {1, 3, 4, 2};
-        int[] result1 = D22_496.nextGreaterElement(nums1, nums2);
-        int[] nums3 = {2, 4};
-        int[] nums4 = {1, 2, 3, 4};
-        int[] result2 = D22_496.nextGreaterElement(nums3, nums4);
-        int[] nums5 = {1, 3, 5, 2, 4};
-        int[] nums6 = {6, 5, 4, 3, 2, 1, 7};
-        int[] result3 = D22_496.nextGreaterElement(nums5, nums6);
+        int[] temperatures1 = {73, 74, 75, 71, 69, 72, 76, 73};
+        int[] temperatures2 = {30, 40, 50, 60};
+        int[] temperatures3 = {30, 60, 90};
+        int[] result1 = D23_739.dailyTemperatures(temperatures1);
+        int[] result2 = D23_739.dailyTemperatures(temperatures2);
+        int[] result3 = D23_739.dailyTemperatures(temperatures3);
 
         for (int i : result1) {
             System.out.println(i);
