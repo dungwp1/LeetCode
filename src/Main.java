@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int[] temperatures1 = {73, 74, 75, 71, 69, 72, 76, 73};
-        int[] temperatures2 = {30, 40, 50, 60};
-        int[] temperatures3 = {30, 60, 90};
-        int[] result1 = D23_739.dailyTemperatures(temperatures1);
-        int[] result2 = D23_739.dailyTemperatures(temperatures2);
-        int[] result3 = D23_739.dailyTemperatures(temperatures3);
+        int[] prices1 = {8, 4, 6, 2, 3};
+        int[] prices2 = {1, 2, 3, 4, 5};
+        int[] prices3 = {10, 1, 1, 6};
+        int[] result1 = D24_1475.finalPrices(prices1);
+        int[] result2 = D24_1475.finalPrices(prices2);
+        int[] result3 = D24_1475.finalPrices(prices3);
 
         for (int i : result1) {
             System.out.println(i);
