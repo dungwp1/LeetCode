@@ -1,22 +1,18 @@
+import D25_232.MyQueue;
+
 public class Main {
     public static void main(String[] args) {
-        int[] prices1 = {8, 4, 6, 2, 3};
-        int[] prices2 = {1, 2, 3, 4, 5};
-        int[] prices3 = {10, 1, 1, 6};
-        int[] result1 = D24_1475.finalPrices(prices1);
-        int[] result2 = D24_1475.finalPrices(prices2);
-        int[] result3 = D24_1475.finalPrices(prices3);
+        MyQueue myQueue = new MyQueue();
 
-        for (int i : result1) {
-            System.out.println(i);
-        }
-        System.out.println("------------");
-        for (int i : result2) {
-            System.out.println(i);
-        }
-        System.out.println("------------");
-        for (int i : result3) {
-            System.out.println(i);
-        }
+        myQueue.push(1);
+        myQueue.push(2);
+        myQueue.push(3);
+        myQueue.push(4);
+        System.out.println(myQueue.peek());
+        System.out.println(myQueue.pop());
+        myQueue.push(5);
+        System.out.println(myQueue.pop());
+        System.out.println(myQueue.peek());
+        System.out.println(myQueue.empty());
     }
 }
