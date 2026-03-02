@@ -17,4 +17,23 @@ public class D16_125 {
         }
         return true;
     }
+
+    public static boolean isPalindrome1(String s) {
+        int l = 0, r = s.length() - 1;
+        while (l <= r) {
+            char charL = Character.toLowerCase(s.charAt(l));
+            char charR = Character.toLowerCase(s.charAt(r));
+            if (!Character.isLetterOrDigit(charL)) {
+                l++;
+            } else if (!Character.isLetterOrDigit(charR)) {
+                r--;
+            } else if (charL == charR) {
+                l++;
+                r--;
+            } else {
+                return false;
+            }
+        }
+        return true;
+    }
 }
