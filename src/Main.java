@@ -1,8 +1,13 @@
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-//        System.out.println(D33_3.lengthOfLongestSubstring("abcabcbb"));
-//        System.out.println(D33_3.lengthOfLongestSubstring("bbbbb"));
-//        System.out.println(D33_3.lengthOfLongestSubstring("pwwkew"));
-        System.out.println(D33_3.lengthOfLongestSubstring("abba"));
+        int[] nums1 = {-1, 0, 3, 5, 9, 12};
+        int[] nums2 = {-1, 0, 3, 5, 9, 12};
+        int[] nums3 = {5};
+        System.out.println(D35_704.search(nums1, 9));
+        System.out.println(D35_704.search(nums2, 2));
+        System.out.println(D35_704.search(nums3, 5));
+
     }
 }
