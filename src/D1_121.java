@@ -1,15 +1,5 @@
-/**
- * Chỉ dùng 1 vòng lặp duy nhất
- * Hướng đi:
- * B1. Lặp từng phần tử và check
- * - Nếu là phần tử min => Gán lại vào min
- * - Nếu không phải là phần từ min => Tính lãi so với min => So sánh với maxProfit
- * - Nếu lãi > maxProfit => Gán lãi vào maxProfit
- * - Nếu lãi < maxProfit => Nothing, tiếp tục vòng lặp
- **/
-
 public class D1_121 {
-    public static int maxProfit(int[] prices) {
+    public static int maxProfit1(int[] prices) {
         int maxProfit = 0;
         int minPrice = Integer.MAX_VALUE;
         for (int i = 0; i < prices.length; i++) {
@@ -23,5 +13,23 @@ public class D1_121 {
             }
         }
         return maxProfit;
+    }
+
+    public static int maxProfit(int[] prices) {
+        int profit = 0;
+        int min = prices[0];
+        int max = prices[0];
+        for (int i = 1; i < prices.length; i++) {
+            if (prices[i] < min) {
+                min = prices[i];
+                max = prices[i];
+            } else {
+                if (prices[i] > max) {
+                    max = prices[i];
+                    profit = Math.max(profit, max - min);
+                }
+            }
+        }
+        return profit;
     }
 }
