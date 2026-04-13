@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {2, 1};
-        System.out.println((D42_941_Valid_Mountain_Array.validMountainArray(arr)));
+        int[] nums = {3, 2, 4};
+        System.out.println(Arrays.toString(D57_1_Two_Sum.twoSum(nums, 6)));
     }
 }
