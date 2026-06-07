@@ -1,10 +1,16 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {3, 2, 4};
-        System.out.println(Arrays.toString(D57_1_Two_Sum.twoSum(nums, 6)));
+        int[] nums1 = {1, 2, 3, 1};
+        int[] nums2 = {1, 0, 1, 1};
+        int[] nums3 = {1, 2, 3, 1, 2, 3};
+        int[] nums4 = {1, 2, 1};
+        int[] nums5 = {0, 1, 2, 3, 2, 5};
+        System.out.println(D81_219_Contains_Duplicate_II.containsNearbyDuplicate(nums1, 3));
+        System.out.println(D81_219_Contains_Duplicate_II.containsNearbyDuplicate(nums2, 1));
+        System.out.println(D81_219_Contains_Duplicate_II.containsNearbyDuplicate(nums3, 2));
+        System.out.println(D81_219_Contains_Duplicate_II.containsNearbyDuplicate(nums4, 0));
+        System.out.println(D81_219_Contains_Duplicate_II.containsNearbyDuplicate(nums5, 3));
     }
 }
