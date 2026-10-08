@@ -4,12 +4,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String[][] watchedVideos1 = {{"A", "B"}, {"C"}, {"B", "C"}, {"D"}};
-        List<List<String>> watchedVideos = new ArrayList<>();
-        for (String[] videos : watchedVideos1) {
-            watchedVideos.add(Arrays.asList(videos));
-        }
-        int[][] friends = {{1, 2}, {0, 3}, {0, 3}, {1, 2}};
-        int id = 0, level = 1;
+        NumArray na = new NumArray(new int[]{1, 3, 5});
+        System.out.println(Arrays.toString(na.tree));
+        na.update(2, 10);
+        System.out.println(Arrays.toString(na.tree));
+        System.out.println(na.sumRange(1, 2));
+
+
     }
 }
